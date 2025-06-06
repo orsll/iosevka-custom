@@ -1,0 +1,17 @@
+diff --git a/params/variants.toml b/params/variants.toml
+index e7c0d4e..25f248a 100644
+--- a/params/variants.toml
++++ b/params/variants.toml
+@@ -9003,6 +9003,12 @@ description = "The bar in inequality (`!=`, etc.) ligation is more slanted, and
+ selector."neq.allow-dot" = "moreSlantedDotted"
+ selector."neq.bar-only"  = "moreSlanted"
+ 
++[prime.lig-neq.variants.uncoupled-slants]
++rank = 7
++description = "The bar in inequality (`!=`, etc.) ligation is slightly slanted for ligations built from slash (`/`), and vertical with a dot at bottom for ligations built from exclamation sign (`!`)."
++selector."neq.allow-dot" = "verticalDotted"
++selector."neq.bar-only"  = "slightlySlanted"
++
+ 
+ 
+ [prime.lig-equal-chain]
