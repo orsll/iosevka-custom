@@ -18,7 +18,7 @@ sha256sums=(
 	'a9912c444ce843481915c4c0f7747dad9a5a8353410dc7162f26844f2d42b425'
 	'52579dd4ebbda8e5a9d314e395dbfe40de82b4b7b3007ec8458876823af8dddd'
 	'161b20b135fb9b13e7cb1b6d9f59c4d7285fcb52040bbe4a323cbccd0ee9e2d4'
-	'780be48e717e907af6a74303c95d3b328d15867d202e098ed4679c59ce9d1a35'
+	'87d07fbc561dc38cfd6471a021d0e1d05eddeb1b72a358e8321ed3f732f43372'
 )
 
 prepare() {
@@ -30,9 +30,9 @@ prepare() {
 build() {
 	cd "$srcdir/Iosevka-${pkgver}"
 	npm install
-	npm run build -- ttf::IosevkaCustom --jCmd=4
-	npm run build -- ttf::IosevkaUbuntu --jCmd=4
-	npm run build -- ttf::IosevkaFira   --jCmd=4
+	npm run build -- ttf::IosevkaCustom --jCmd=7
+	npm run build -- ttf::IosevkaUbuntu --jCmd=7
+	npm run build -- ttf::IosevkaFira   --jCmd=7
 }
 
 package() {
