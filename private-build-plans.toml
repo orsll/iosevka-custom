@@ -223,7 +223,7 @@ inherits = "ss05"
 
 # Optional; Configure single character's variant
 [buildPlans.IosevkaFira.variants.design]
-six = 'open-contour''
+six = 'open-contour'
 lig-neq = 'uncoupled-slants'
 lig-equal-chain  = 'without-notch'
 lig-hyphen-chain = 'without-notch'
