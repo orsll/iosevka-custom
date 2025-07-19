@@ -1,7 +1,7 @@
 # Maintainer: orsll <rodrigo.orselli@gmail.com>
 
 pkgname=iosevka-custom
-pkgver=33.2.6
+pkgver=33.2.7
 pkgrel=1
 pkgdesc="Typeface family designed for coding, terminal use and technical documents"
 arch=('any')
@@ -15,7 +15,7 @@ source=(
 	'private-build-plans.toml'
 )
 sha256sums=(
-	'a9912c444ce843481915c4c0f7747dad9a5a8353410dc7162f26844f2d42b425'
+	'ce176e4d7b7c0ac49210911af3c5216cf65113ca15082d9ec89110ed6cb7b62f'
 	'52579dd4ebbda8e5a9d314e395dbfe40de82b4b7b3007ec8458876823af8dddd'
 	'161b20b135fb9b13e7cb1b6d9f59c4d7285fcb52040bbe4a323cbccd0ee9e2d4'
 	'87d07fbc561dc38cfd6471a021d0e1d05eddeb1b72a358e8321ed3f732f43372'
